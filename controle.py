@@ -87,6 +87,8 @@ try:
             elif soma_diminui == 'diminuir':
                 diminuir = f'''UPDATE bebidas SET qtd_disponivel = qtd_disponivel - {valor}
                                 WHERE nm_bebidas = '{nome_bebida}' '''
+                cursor.execute(diminuir)
+                conn.commit()
                 print('Valor atualizado com sucesso!')
         else:
             print('Bebida não encontrada')
