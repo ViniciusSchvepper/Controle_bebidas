@@ -9,3 +9,4 @@ Adicionar: É a parte que permite fazer a adição de novos produtos, caso o pro
 Remover: Onde caso queiramos tirar produtos de estoque ou que não são relevantes por qualquer motivo que seja.
 Consultar: Usado unicamente para fazer a consulta dos valores disponíveis na tabela, retornando dentro do terminal os produtos.
 Atualizar: Por fim onde podemos fazer a adição ou subtração da quantidade de produtos disponíveis, de modo que seja fácil fazer o balanço.
+
